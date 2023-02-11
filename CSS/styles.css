@@ -4,15 +4,23 @@ h1, h2, p{
 body{
     /*background-color: rgb( 228,202,218 );*/
     background-image: url(https://images.pexels.com/photos/12743455/pexels-photo-12743455.jpeg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
 }
 
-div{
-    width: 300px;
-    background-color: rgb(red, rgba(8, 200, 8, 0.396), blue);
-    background-color: orangered;
-    margin-left: auto;
-    margin-right: auto;
+h1, h2, p{
+    text-align:center;
+}
+
+h1{
+    font-size: 40px;
+    margin:0;
+}
+    
+h2{
+    font-size: 35px;
 }
 
 .tea-items p{
