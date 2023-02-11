@@ -2,5 +2,13 @@ h1, h2, p{
     text-align:center;
 }
 body{
-    background-color: aqua;
+    background-color: rgb( 228,202,218 );
+}
+
+div{
+    width: 300px;
+    background-color: rgb(red, rgba(8, 200, 8, 0.396), blue);
+    background-color: orangered;
+    margin-left: auto;
+    margin-right: auto;
 }
